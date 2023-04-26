@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(54, 52, 52);
+    background-color: rgb(226, 226, 178);
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {color: maroon;
+text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: blue;
+}
+.resumeListHeading {
+    font-weight: bold;
+    font-style: normal;
+}
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify{text-align: justify;}
+.homebg {
+    background-image: url("../images/F35\ Looking\ at\ camera.jfif");
+    background-position: top right;
+    background-size: cover;
+}
+
+.box1{
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+
+    border: 1px solid red;
+    /* just using border will be quicker than doing it seperate */
+}
+.box2 {
+    padding: 5px;
+}
+.box3 {
+    margin: 30px;
+}

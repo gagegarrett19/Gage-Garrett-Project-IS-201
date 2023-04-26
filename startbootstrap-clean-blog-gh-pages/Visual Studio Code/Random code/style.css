@@ -1,0 +1,30 @@
+/* Styles for the unordered list embedded in an ordered list */
+ol li ul {
+    list-style-type: circle;
+  }
+  
+  /* Styles for the image */
+  img {
+    width: 100%;
+  }
+  
+  /* Styles for the divs */
+  .my-div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  /* Styles for the on-page anchor */
+  a[href^="#"] {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  /* Styles for the custom background color */
+  body {
+    background-color: #eee;
+  }
+  
+  /* Styles for
